@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <style>
+        img {
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="C:\Users\shaba\Pictures\Wallpapers\66.jpg" alt="Rathnar" id="image">
+
+    <script>
+        var og_src = document.getElementById('image');
+        document.getElementById('image').addEventListener('mouseover', Fchange);
+        document.getElementById('image').addEventListener('mouseout', Schange);
+
+        function Fchange() {
+            document.getElementById('image').src = "C:\Users\shaba\Pictures\Wallpapers\69.jpg";
+        }
+
+        function Schange() {
+            document.getElementById('image').src = og_src;
+        }
+    </script>
+
+</body>
+
+</html>
