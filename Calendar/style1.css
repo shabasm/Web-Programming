@@ -1,0 +1,22 @@
+#calender-data {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+li {
+    list-style: none;
+    padding: 5px;
+
+}
+#calender {
+    background-color: lightyellow;
+    margin: 10px 100px;
+    padding: 30px 150px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.last-month {
+    color: teal;
+
+}
